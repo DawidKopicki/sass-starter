@@ -14,7 +14,7 @@ gulp.task('sass', () => {
 });
 
 gulp.task('watch', () => {
-    gulp.watch('./app/sass/*.scss', gulp.series('sass'))
+    gulp.watch('./app/sass/*/*.scss', gulp.series('sass'))
 });
 
 gulp.task('imagemin', () => {
