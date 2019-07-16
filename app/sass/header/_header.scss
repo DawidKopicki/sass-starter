@@ -23,3 +23,13 @@
     }
   }
 }
+
+@media all and (min-width: $sm-min){
+  .header {
+    &__logo {
+      &-item {
+        width: 65px;
+      }
+    }
+  }
+}
