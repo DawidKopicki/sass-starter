@@ -1,0 +1,30 @@
+{
+  "name": "sass-starter",
+  "version": "1.0.0",
+  "description": "HTML5, CSS3 with SASS, RWD",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DawidKopicki/sass-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DawidKopicki/sass-starter/issues"
+  },
+  "homepage": "https://github.com/DawidKopicki/sass-starter#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 2%"
+  ]
+}
