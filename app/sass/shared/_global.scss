@@ -4,11 +4,16 @@ html, body {
 
 body {
   background: $main-background;
+  overflow-x: hidden;
 }
 
 .block {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.footer-margin {
+  margin: 15px;
 }
 
 .container {
